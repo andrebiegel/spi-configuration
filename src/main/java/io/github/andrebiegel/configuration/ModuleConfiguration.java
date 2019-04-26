@@ -1,4 +1,4 @@
-package de.abiegel.configuration.api;
+package io.github.andrebiegel.configuration;
 
 /**
  * SPI for  Module Configuration

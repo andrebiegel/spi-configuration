@@ -1,7 +1,7 @@
-package de.abiegel.configuration.api.test;
+package io.github.andrebiegel.configuration.test;
 
-import de.abiegel.configuration.api.JsonPConfiguration;
-import de.abiegel.configuration.api.ModuleConfiguration;
+import io.github.andrebiegel.configuration.JsonPConfiguration;
+import io.github.andrebiegel.configuration.ModuleConfiguration;
 
 public class ProjectConfigExample extends JsonPConfiguration implements ModuleConfiguration {
 

@@ -1,9 +1,9 @@
-package de.abiegel.configuration.api.test;
+package io.github.andrebiegel.configuration.test;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import de.abiegel.configuration.api.ApplicationConfiguration;
+import io.github.andrebiegel.configuration.ApplicationConfiguration;
 
 public class ApplicationConfigurationTest {
 

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package de.abiegel.configuration.api;
+package io.github.andrebiegel.configuration;
 
 import java.io.InputStream;
 
@@ -36,6 +36,9 @@ public abstract class JsonPConfiguration implements ModuleConfiguration {
 
 	@Override
 	public String get(String key) {
+		if (!key.startsWith("/")) {
+			return KEY_NOT_FOUND;
+		}
 		JsonPointer pointer = Json.createPointer(key);
 		
 		if (pointer.containsValue(configurations)) {
