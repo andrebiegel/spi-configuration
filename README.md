@@ -20,7 +20,7 @@ public class ProjectConfigPropertiesExample extends PropertiesConfiguration impl
 	}
 }
 ```
-3. Provide a SPI descriptor in META-INF/services/io.github.andrebiegel.configuration.ModuleConfiguration of your module
+3. Provide a SPI descriptor in _META-INF/services/io.github.andrebiegel.configuration.ModuleConfiguration_ of your module
 ```
 io.github.andrebiegel.configuration.test.ProjectConfigPropertiesExample
 ```
