@@ -7,7 +7,11 @@ Providing Configuration is a common task. It is mostly tackled by functionality 
 ## Usage
 The test demonstrates how to use it ...
 
-1. Write Config File 
+1. Write Config File
+```
+test=testvalue
+test2=testvalue2
+```
 2. Implement the Configuration type you need
 ```java
 public class ProjectConfigPropertiesExample extends PropertiesConfiguration implements ModuleConfiguration {
