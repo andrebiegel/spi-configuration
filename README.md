@@ -20,5 +20,12 @@ public class ProjectConfigPropertiesExample extends PropertiesConfiguration impl
 ```
 io.github.andrebiegel.configuration.test.ProjectConfigPropertiesExample
 ```
+4. Use it 
+```java
+ApplicationConfiguration config  =  new ApplicationConfiguration();
+config.init();
+Assertions.assertEquals("testvalue", config.get("test"));
+Assertions.assertEquals("testvalue2", config.get("test2"));
+```
 
  
