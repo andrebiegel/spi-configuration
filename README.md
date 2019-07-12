@@ -5,7 +5,6 @@ Providing Configuration is a common task. It is mostly tackled by functionality 
   * PropertiesConfiguration (normal property files
   
 ## Usage
-The test demonstrates how to use it ...
 
 1. Write Config File
 ```
